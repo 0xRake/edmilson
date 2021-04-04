@@ -1,3 +1,30 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "pt-pt"
+defaultContentLanguage = "pt"
+title = "Edmilson"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+[Author]
+    name = "Edimilson : Um Pedido de Ajuda "
+
+[paramms]
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:janmilan10@gmail.com"
+
+
+    [[params.links]]
+        iconset = "fas"
+        title = "donate"
+        url = "https://www.vakinha.com.br/vaquinha/ajuda-ao-edmilson"
+
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "donate"
+        title = "doacoes"
+        url = "https://www.vakinha.com.br/vaquinha/ajuda-ao-edmilson"
